@@ -38,7 +38,7 @@ int main()
     /*int a=15,b;
 
     printf();
-*/
+
 int marks;
 printf("Enter your marks : ");
 scanf("%d", &marks);
@@ -60,6 +60,13 @@ if (marks>=0 && marks<=45){
 }
 if (marks<=0 && marks>100){
     printf("Invalid Input");
+}
+*/
+
+int num1 = 10, num2 = 20;
+
+if (num1 == num2){
+    printf("Hello");
 }
 
     return 0;
