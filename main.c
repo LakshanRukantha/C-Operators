@@ -65,8 +65,40 @@ if (marks<=0 && marks>100){
 
 int num1 = 10, num2 = 20;
 
+// equal condition
+
 if (num1 == num2){
-    printf("Hello");
+    printf("Hello\n");
+}
+
+// not equal
+
+if (num1 != num2){
+    printf("Hello\n");
+}
+
+// greater than
+
+if (num1 > num2){
+    printf("Hello\n");
+}
+
+// greater than or equal
+
+if (num1 >= num2){
+    printf("Hello\n");
+}
+
+// less than
+
+if (num1 < num2){
+    printf("Hello\n");
+}
+
+// less than or equal
+
+if (num1 <= num2){
+    printf("Hello\n");
 }
 
     return 0;
