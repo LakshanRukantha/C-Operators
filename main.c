@@ -100,7 +100,7 @@ if (num1 < num2){
 if (num1 <= num2){
     printf("Hello\n");
 }
-*/
+
 
 // Logical operators
 
@@ -131,6 +131,34 @@ if (!(num1 > 20 || num2 < 20))
 {
     printf("Hello\n");
 }
+
+
+int num1 = 10, num2 = 20, num3;
+
+num3 = num1 && num2;
+
+printf("Num3 is : %d", num3);
+
+
+int num1 = 5, num2 = 7, num3;
+
+num3 = num1 | num2;
+
+printf("Value is : %d", num3);
+
+
+int num1 = 5, num2 = 7, num3;
+
+num3 = num1 ^ num2;
+
+printf("Value is : %d", num3);
+*/
+
+// right shift
+
+int a = 50;
+
+printf("Value is : %d", a>>6);
 
     return 0;
 }
