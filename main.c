@@ -61,7 +61,7 @@ if (marks>=0 && marks<=45){
 if (marks<=0 && marks>100){
     printf("Invalid Input");
 }
-*/
+
 
 int num1 = 10, num2 = 20;
 
@@ -98,6 +98,37 @@ if (num1 < num2){
 // less than or equal
 
 if (num1 <= num2){
+    printf("Hello\n");
+}
+*/
+
+// Logical operators
+
+// and (&&) operator
+
+int num1 = 20, num2 = 40;
+
+if (num1 > 20 && num2 > 20)
+{
+    printf("Hello\n");
+}
+
+if (num1 < 20 && num2 > 20)
+{
+    printf("Hello\n");
+}
+
+// or (||) operator
+
+if (num1 > 20 || num2 > 20)
+{
+    printf("Hello\n");
+}
+
+// not (!) operator
+
+if (!(num1 > 20 || num2 < 20))
+{
     printf("Hello\n");
 }
 
